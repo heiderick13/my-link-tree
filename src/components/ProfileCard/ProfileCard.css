@@ -1,0 +1,16 @@
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0px 10px 64px;
+  gap: 32px;
+
+  width: 370px;
+  height: 95vh;
+
+  background: #161616;
+  box-shadow: inset 0px 5px 5px rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+}
