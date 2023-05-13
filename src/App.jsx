@@ -1,15 +1,8 @@
-import Container from "./components/LinkCard/Container/Container";
+import Container from "./components/LinkCard/ProfileCard/ProfileCard";
 
 function App() {
   return (
-    <div
-      style={{
-        height: "100vh",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-      }}
-    >
+    <div className="flex justify-center items-center min-h-screen">
       <Container />
     </div>
   );
