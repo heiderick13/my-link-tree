@@ -1,13 +1,15 @@
 import "./LinkCard.css";
 
-function LinkCard({ icon, iconAlt, url, social }) {
+function LinkCard({ icon, url, social }) {
   return (
-    <div>
-      <a className="flex" href={url} target="_blank">
-        <img src={icon} alt={iconAlt} />
-        <p>{social}</p>
-      </a>
-    </div>
+    <a
+      className="link-card w-full flex items-center p-2 rounded-lg"
+      href={url}
+      target="_blank"
+    >
+      <span>{icon}</span>
+      <p className="text-center grow">{social}</p>
+    </a>
   );
 }
 
